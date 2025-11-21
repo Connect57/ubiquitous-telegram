@@ -12,11 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Clear loading message
       activitiesList.innerHTML = "";
-      # install dependencies if needed
-      pip install -r requirements.txt
-      
-      # start the dev server with auto-reload
-      uvicorn src.app:app --reload --port 8000      // Reset activity select (keep placeholder)
+      // Reset activity select (keep placeholder)
       activitySelect.innerHTML = '<option value="">-- Select an activity --</option>';
 
       // Populate activities list
